@@ -1,21 +1,17 @@
+# SQL 1 - Introduction
 
-# Outcomes
-
-You should be able to:
+## Outcomes
 
 - Define a database
 - Describe the role of a DBMS
 - Describe advantages / disadvantages
+- Describe issues using Excel to storage large datasets
 - Describe SQL
-
 
 Please install the [SQLite DB Browser](https://sqlitebrowser.org/dl/)
 
 
-![Cute image of Database|300](sql01-databasemacot.png)
-
-
-# Terms
+## Terms
 
 - *Relational database* - a structured collection of data (held in formally-defined relations, i.e. tables)
   - This design helps prevent anomaly / errors relating to update, insert, or delete
@@ -26,6 +22,8 @@ Please install the [SQLite DB Browser](https://sqlitebrowser.org/dl/)
   - Security
   - Efficient data retrieval 
   - Efficient data manipulation
+  - Large datasets (Excel is limited in how many rows it can accept)
+  - Integrity (columns can be fixed to certain types)
 - *Disadvantages*
   - High initial setup costs
   - Need for skilled administrators
@@ -44,63 +42,22 @@ Please install the [SQLite DB Browser](https://sqlitebrowser.org/dl/)
   - Whole numbers are integers (1, 2, 3, ...). They may be called int in a diagram.
   - Non-whole are floats (1.2, 2.8). These may be called double or money.
   - String is regular text, such as "Bob" or "Sarah". These are sometimes called VARCHAR, for variable-length character.
-- Data Warehouse: typically an analysis-oriented database, usually transferred data from an operational database
 - Schema: the data model for a warehouse
-- CRUD access rights: create, read, update, delete
 - Data Dictionary: definition of the fields and tables in a database
 
-# Database Diagram
+## Database Diagram
 
-A database diagram shows multiple tables and how they are related to each other.
-
+A database diagram shows multiple tables and how they are related to each other. This is related to the data dictionary, but is more of a graphical view.
 
 ![Northwind SQL Diagram](sql01-northwind.png)
 
-
-
-# Conventions
+## Conventions
 
 - Lowercase names, no spaces, underscore_naming_is_best
 - Unfortunately, this is rarely the case. You should be able to handle columns with multiple spaces / words in them by wrapping them with "double quotes"
 
-```{undefined eval=FALSE, include=FALSE}
 
-## Class Activity
-
-Review slides Romney Chapter 4
-
-Open the WhyDB.xlsx file in the shared folder. Working with your table, 
-identify the issues with the Excel file.
-
-> ABC Consulting has been asked to figure out why a new initiative failed to deliver.
-> They have traced the underlying problem to a sales initiative for Product D underperforming.
-> This dataset was used to justify a decision to move all marketing dollars from A, B, and C to D.
-> 
-> What issues can you find that suggest this initiative was a mistake?
-
-Goal: find five of the six errors.
-
-
-# INSTRUCTOR NOTES
-
-
-# Concepts:
-#	References: Using references to individual cells instead of joins can be an issue
-#	Data type: Excel doesn't enforce having the same type of data in a cell.
-#	Accidental moves: It's easy to end up with data on different columns/rows through user errors.
-#	Size: Excel has a row limit
-
-#	Issues:
-#	Unit Sales hits row limit, dropping last part of year
-#	Unit Sales adds new month column in May
-#	Products changes datatype from $ to %
-#	Products has text datatype for a cell
-#	Analysis uses an incorrect reference 
-#	Product E isn’t listed (tracing)
-
-```
-
-# Questions
+## Questions
 
 Answer the following questions:
 
@@ -109,3 +66,7 @@ Answer the following questions:
 - Which fields connect Employees to Employees?
 - Which table is used to store the price for a product?
 - Which tables would need updates for a new order by a new customer?
+
+## Problems
+
+- [Why use a database?](/sql01-whydb)
