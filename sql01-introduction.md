@@ -69,4 +69,4 @@ Answer the following questions:
 
 ## Problems
 
-- [Why use a database?](/sql01-whydb)
+- [Why use a database?](/course_sql/sql01-whydb)
