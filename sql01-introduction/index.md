@@ -49,7 +49,7 @@ Please install the [SQLite DB Browser](https://sqlitebrowser.org/dl/)
 
 A database diagram shows multiple tables and how they are related to each other. This is related to the data dictionary, but is more of a graphical view.
 
-![Northwind SQL Diagram](sql01-northwind.png)
+![Northwind SQL Diagram](northwind.png)
 
 ## Conventions
 
@@ -69,4 +69,4 @@ Answer the following questions:
 
 ## Problems
 
-- [Why use a database?](/course_sql/sql01-whydb)
+- [Why use a database?](whydb)

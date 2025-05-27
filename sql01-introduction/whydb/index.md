@@ -11,6 +11,6 @@ ABC Consulting has been asked to figure out why a new initiative failed to deliv
 What issues can you find that suggest this initiative was a mistake?
 
 ## Process
-- Download the [whydb.csv file](./whydb.csv)  
+- Download the [whydb.csv file](whydb.csv)  
 - Open the file in Excel
 - Try to find at least five of the six errors.

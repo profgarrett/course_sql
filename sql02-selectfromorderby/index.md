@@ -18,6 +18,9 @@ This module accompanies the *Introduction to SQL* DataCamp tutorial. Some conten
 
 - Understand the role of capitalization
 
+## Videos
+
+- [YouTube: How to filter with WHERE](https://www.youtube.com/watch?v=4Uv0o8IBqw0)
 
 ## Style guide
 
@@ -112,3 +115,7 @@ Complete the following tutorials:
 - 0 SELECT basics (all questions)
 - 1 SELECT name (questions 1-4)
 - 2 SELECT from WORLD (questions 1-7)
+
+## Application Problems
+
+[Morgantown Docks GHCN](morgantowndocks)
