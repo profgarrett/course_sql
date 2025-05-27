@@ -5,8 +5,10 @@
 Join together two or more tables using a key
 
 - Describe when to use each join type
-- Join tables with INNER JOIN and LEFT OUTER JOIN
-- Rename fields with AS
+- Join tables with `INNER JOIN` 
+- Join tables with `LEFT OUTER JOIN`
+	- Filter on `NULL` to find only rows without a match
+- Rename fields with `AS`
 
 ## Videos:
 
@@ -16,10 +18,10 @@ Join together two or more tables using a key
 
 Get all matching records in two tables.
 
-> SELECT * 
-> FROM tableA 
-> INNER JOIN tableB
-> ON tableA.foreign_key = tableB.primary_key
+`SELECT * `
+`FROM tableA `
+`INNER JOIN tableB`
+`ON tableA.foreign_key = tableB.primary_key`
 
 SQL INNER JOIN is used to combine rows from two or more tables based on a related column between them. 
 
@@ -31,20 +33,21 @@ SQL INNER JOIN is used to combine rows from two or more tables based on a relate
 
 We have two tables: "employees" and "departments." To retrieve a list of employees along with their corresponding department names:
 
->  SELECT employees.name, departments.department_name
->  FROM employees
->  INNER JOIN departments ON employees.department_id = departments.id;
+`SELECT employees.name, departments.department_name`
+`FROM employees`
+`INNER JOIN departments ON employees.department_id = departments.id;`
 
 Remember that for the INNER JOIN to work correctly, there should be a matching relationship between the columns specified in the ON clause. If there are no matches for a row in either table, that row will not be included in the result set.
 
+**Important!** We sometimes use `COUNT(*)` to count the number of rows, and other times we use `COUNT(field_name)` to count a specific field. This is particularly important when we start using joins. If you select `COUNT(*)` and an outer join, you'll get a different result than `COUNT(field_that_may_be_null_due_to_a_join)`.
 ## OUTER JOIN
 
 Get all records from the left table, and all matching from the right.
 
-> SELECT tableA.field, tableB.* 
-> FROM tableA 
-> LEFT OUTER JOIN tableB
-> ON tableA.foreign_key = tableB.primary_key
+`SELECT tableA.field, tableB.* `
+`FROM tableA `
+`LEFT OUTER JOIN tableB`
+`ON tableA.foreign_key = tableB.primary_key`
 
 An outer join is the same as an inner join, with one important difference. 
 * Inner join returns rows where the condition is true
@@ -61,5 +64,6 @@ See SQLZoo's section on joins:
 - [SQLZoo: More JOIN](https://sqlzoo.net/wiki/More_JOIN_operations)
 - [SQLZoo: Using Null](https://sqlzoo.net/wiki/Using_Null)
 
-# Application Problem
+# Problems
 
+- [Sakila Movie Rental](sakila)

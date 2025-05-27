@@ -4,13 +4,13 @@ This module accompanies the *Introduction to SQL* DataCamp tutorial. Some conten
 
 ## Outcomes
 
-- `SELECT *, field, field2 as ABC, "field b"` 
+- ``SELECT *, field, field2 as ABC, `field b` as fieldb`` 
 	- `DISTINCT`
 - `FROM table`
     - Use `as t2` to create an alias
 - `WHERE field = value` 
 	- Use the comparisons `>`, `>=`, `<`, `<=`, `=`, `!=` 
-	- Match a number,  `"string value"`, or `NULL`
+	- Match a number,  `"string value"`, "" (empty string), or `NULL`
 	- Use `AND` 
     - Use `OR`
 - `ORDER BY fieldname`
@@ -66,8 +66,10 @@ WHERE filters the returned fields. We use the pattern *left side* = *right side*
     - Bad Example: `SELECT * FROM employees WHERE id > '2'`
 
 LIKE allows using the % wildcard in a WHERE. You can also use a NOT LIKE. These are only used when comparing text values.
-
 - Example: `SELECT * FROM employees WHERE name LIKE 'dark %'`
+
+We can test for an empty string with '' or "" (two single or double quotes side by side)
+- Example: `SELECT * FROM employees WHERE title = ''`
 
 IN allows us to search for an item in a list.
 
@@ -116,6 +118,6 @@ Complete the following tutorials:
 - 1 SELECT name (questions 1-4)
 - 2 SELECT from WORLD (questions 1-7)
 
-## Application Problems
+## Problems
 
 [Morgantown Docks GHCN](morgantowndocks)

@@ -7,11 +7,11 @@ title: Course study notes for SQL - ACCT 425/BUDA 450
 Course study notes for ACCT 425 and BUDA 450 students.
 
 1. [SQL Introduction](sql01-introduction)
-2. [Select](sql02-select) (Datacamp *Introduction to SQL*)
-3. [Joins](sql03-joins) (Datacamp *Joining data in SQL*)
-4. [Functions](sql04-functions) (Datacamp *Intermediate SQL*)
-5. [Aggregation](sql05-aggregation) (Datacamp *Intermediate SQL*)
-6. [Complex Joins](sql06-complexjoins) (Datacamp *Joining data in SQL*)
+1. [Select](sql02-selectfromorderby) (Datacamp *Introduction to SQL*)
+1. [Functions](sql03-functions) (Datacamp *Intermediate SQL*)
+1. [Aggregation](sql04-aggregation) (Datacamp *Intermediate SQL*)
+1. [Joins](sql05-joins) (Datacamp *Joining data in SQL*)
+1. [Complex Joins](sql06-complexjoins) (Datacamp *Joining data in SQL*)
 
 ### Useful references
 

@@ -1,6 +1,6 @@
 # Problem: What is Morgantown's weather?
 
-We will use concepts from [SQL 2](./) to investigate Morgantown's weather patterns.
+We will use concepts from [SQL 2](./../) to investigate Morgantown's weather patterns.
 ## Outcome
 
 - Practice `SELECT`, `FROM`, `WHERE`, `ORDER BY`, `AS`, and other concepts introduced in SQL2.

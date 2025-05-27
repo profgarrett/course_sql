@@ -5,11 +5,11 @@ There are some more complex operations you can do with a join.
 
 Connect two tables, returning only rows in tableA without a match in tableB
 
-> SELECT * 
-> FROM tableA 
-> LEFT OUTER JOIN tableB
-> ON tableA.foreign_key = tableB.primary_key
-> WHERE tableB.primary_key IS NULL
+`SELECT * `
+`FROM tableA `
+`LEFT OUTER JOIN tableB`
+`ON tableA.foreign_key = tableB.primary_key`
+`WHERE tableB.primary_key IS NULL`
 
 ## Self-join
 
@@ -23,10 +23,10 @@ We can connect a table to itself. This typically requires understanding how to u
 
 This returns a list of people with their boss. Note that use of re-naming fields and tables. We rename the 2nd time empl is used, marking it as the boss table. We then join the employee's foreign key for their boss with the primary key of the boss table. 
 
-> SELECT boss.*, empl.*
-> FROM empl
-> LEFT OUTER JOIN empl AS boss 
-> ON empl.boss_fk = boss.emp_pk
+`SELECT boss.*, empl.*`
+`FROM empl`
+`LEFT OUTER JOIN empl AS boss `
+`ON empl.boss_fk = boss.emp_pk`
 
 
 ## Relationship Types
@@ -41,10 +41,10 @@ There are multiple ways that tables can connect:
 
 It's possible to have an entire SQL query as a portion of another query. See the example below. It performs some filtering on staff before using it in the join.
 
-> SELECT *
-> FROM sales
-> INNER JOIN ( SELECT id FROM staff WHERE id > 10 ) staffOver10
-> ON sales.employeeID = staffOver10.id
+`SELECT *`
+`FROM sales`
+`INNER JOIN ( SELECT id FROM staff WHERE id > 10 ) staffOver10`
+`ON sales.employeeID = staffOver10.id`
 
 ## Full / cross join
 

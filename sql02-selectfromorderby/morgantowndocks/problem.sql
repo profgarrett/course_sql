@@ -1,4 +1,4 @@
--- SQL questions 
+-- SQL 2 select questions 
 -- https://profgarrett.github.io/course_eda/sql02-select.html
 --
 -- Updated May 23, 2025
@@ -60,53 +60,42 @@ FROM daily
  -- 3 WHERE 
   
 -- 3a) Return all dates with rain.
-SELECT date, rain 
-FROM daily
 
--- 3b) Return all dates *without* values  for snow depth (i.e., NULL)
-SELECT *
-FROM daily
 
--- 3c) Return meaurements at MORGANTOWN LOCK AND DAM, WV US
+-- 3b) Return all rows *without* values for snow depth (i.e., NULL)
+
+
+-- 3c) Return all rows *without* values for a stationname value (i.e., NULL). 
+
+
+-- 3d) Return all rows with a stationname value of a blank value (i.e., "")
+
+
+-- 3e) Return meaurements at MORGANTOWN LOCK AND DAM, WV US
 -- Remember to use 'single quotes' for values. These are different from `backticks`, which are used for field or 
 -- tables with a space in their name.
-SELECT *
-FROM  daily
 
 
--- 3d) Return meaurements not at MORGANTOWN LOCK AND DAM, WV US
-SELECT *
-FROM  daily
+-- 3f) Return meaurements not at MORGANTOWN LOCK AND DAM, WV US
 
 
--- 3e) Return meaurements at any site with the work MORGANTOWN in its name.
-SELECT *
-FROM  daily
+-- 3g) Return meaurements at any site with the work MORGANTOWN in its name.
 
 
--- 3f) Return all rows with a temperature between 60 and 70.
-SELECT *
-FROM daily
+-- 3h) Return all rows with a temperature between 60 and 70.
 
 
--- 3g) Return all rows with a temperature of 60, 70, or 80. 
-SELECT *
-FROM daily
+-- 3i) Return all rows with a temperature of 60, 70, or 80. 
 
 
--- 3h) Return all rows with rain of 0 and a temperature above 95.
-SELECT *
-FROM daily
+-- 3j) Return all rows with rain of 0 and a temperature above 95.
 
 
--- 3i) Return all rows without a minimum temperature VALUE
-SELECT date, tmin
-FROM daily
+-- 3j) Return all rows without a minimum temperature VALUE
 
 
--- 3j) Return all rows with a snow depth above 1.23
-SELECT *
-FROM daily
+-- 3k) Return all rows with a snow depth above 1.23
+
 
 
 ------------------------------------------------------------------------------------------------
@@ -139,11 +128,4 @@ FROM daily
 -- 8) How many unique years are in the dataset?
 
 -- 9) What is the highest maximum temperature between 1990-1995? 
-
-
--- 10) What is the month with the highest snow depth in 2000? Note, answer with just the number,
--- using no leading zeros. I.E., 06 would be 6.
-
-
-
 
