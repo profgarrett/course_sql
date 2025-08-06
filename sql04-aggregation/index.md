@@ -19,6 +19,7 @@ Reduce data rows by pivoting the data and filter the results.
 - `MIN(field_name)` and `MAX(field_name)` give the largest and smallest values
 
 Note that we sometimes use `COUNT(*)` to count the number of rows, and othertimes we used `COUNT(field_name)` to count a specific field. This is particularly important when we start using joins.
+
 ## GROUP BY
 
 Group by returns a single row for each unique value (or set of values). 
@@ -32,7 +33,6 @@ The key is the WHERE runs first! Then the group by runs, and finally the HAVING.
 `WHERE year < 2000`
 `GROUP BY year`
 `HAVING year_sales > 100`
-
 
 ## Further practice
 

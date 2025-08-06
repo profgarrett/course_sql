@@ -1,7 +1,5 @@
 -- SQL 3 Functions questions 
--- https://profgarrett.github.io/course_eda/sql02-select.html
---
--- Updated May 23, 2025
+-- Updated Aug 6, 2025
 
 
 
@@ -80,49 +78,3 @@ SELECT
 FROM daily 
 ORDER BY 
 
-
-
-------------------------------------------------------------------------------------------------
--- Application Questions
-------------------------------------------------------------------------------------------------
-
--- 1) Return the station name and state together in a single field, 
--- with the state name in uppercase, the station name in lowercase,
--- and a space and comma between them.
--- What is the result for row 3 (sort by date)?
-
-
--- 2) Give the unique state names in uppercase, ordered alphabetically.
--- What is the result for row 2?
-
-
--- 3) Convert the tmax into celsius.
--- Exclude all NULL values.
--- What is the result for row 4 (sort by date)? Round to a single decimal
-
--- 4) Give a unique list of snow depth
--- Round to the nearest integer.
--- Exlude all NULL values.
--- What is the result for row 23 (sort by snowdepth_rounded)?
-
-
--- 5) Find all of the unique day values from the data field.
--- The date field is in the format YYYY-MM-DD.
--- Sort by day, and show only unique values.
--- What is the result for row 4?
-
-
--- 5) Find all of the unique day values from the data field.
--- The date field is in the format YYYY-MM-DD.
--- Sort by day, and show only unique values
--- Convert to an integer
--- What is the result for row 4?
-
-
--- 6) Show snow divided by the snow depth.
--- Exclude where snow is a NULL value
--- What is the result for row 3 (sort by snow_ratio)?
-
-
--- 7) Same as above, but round to a single decimal.
--- What is the result for row 6?

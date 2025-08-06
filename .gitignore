@@ -4,6 +4,8 @@
 # Solution files for instructor view only
 solution/
 solution.*
+quiz/
+quiz.*
 
 # Excel files create temp files.
 ~$*

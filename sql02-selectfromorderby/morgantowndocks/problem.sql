@@ -1,7 +1,7 @@
 -- SQL 2 select questions 
 -- https://profgarrett.github.io/course_eda/sql02-select.html
 --
--- Updated May 23, 2025
+-- Updated Aug 6, 2025
 
 
 
@@ -95,37 +95,4 @@ FROM daily
 
 
 -- 3k) Return all rows with a snow depth above 1.23
-
-
-
-------------------------------------------------------------------------------------------------
--- Application Questions
-------------------------------------------------------------------------------------------------
-
-
--- 1) How many days had over 1/10 of an inch of snow with temperature over freezing? 
-
-
--- 2) How many days have NULL values for tMax in 1930?
-
-
--- 3) How many unique station names are in the dataset?
-
-
--- 4) What is the lowest minimum temperature in 2000?
-
-
--- 5) What is the lowest minimum temperature in 2000-2010?
--- NOTE: Include both 2000 and 2010.
-
-
--- 6) How many days had over 1/10 of an inch of snow while the maximum temperature was exactly 31 degrees? 
-
-
--- 7) How many days have NULL values for tMin in 1950?
-
-
--- 8) How many unique years are in the dataset?
-
--- 9) What is the highest maximum temperature between 1990-1995? 
 

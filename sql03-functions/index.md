@@ -1,6 +1,3 @@
----
-
----
 # SQL 3 - Functions
 
 There are are a variety of useful SQL functions. 
@@ -15,12 +12,14 @@ There are are a variety of useful SQL functions.
 	- Convert from a text field to a numeric field by multiplying by 1.0
 	- Understand what happens when you divide an integer by another integer
 	- Convert from an integer to a float field by multiplying by 1.0
+
 ## Text Functions
 
 `upper` and `lower` converts a field's case. They both take a single argument.
 `SELECT lower(name), upper(name) FROM people`
 
 `Substr` returns part of a string. It uses three arguments:
+
 - text_string: what text should be modified
 - starting_number: which character should we start with?
 - length_of_returned_string: how long should our returned string be?
@@ -45,7 +44,6 @@ Note that some forms of SQL are very picky about decimals versus integers. If yo
 `ROUND` will clean up a number to the given decimal point. You can use 2 to round to the pennies, or -2 to round to the nearest hundred.
 `SELECT round(number_field, 0) FROM table_name`
 
-##  Problems
+## Problems
 
 [Morgantown Docks v2](morgantowndocks2)
-

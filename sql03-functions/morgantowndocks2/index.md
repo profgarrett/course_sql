@@ -11,3 +11,4 @@ We will use concepts from [SQL 3](./../) to fix some issues with Morgantown's we
 - Open *DB Browser* and choose *File* / *Open DB*
 - Go to the execute SQL tab. Then, use the 2nd button from the left to open the SQL file
 - Start answering questions! 
+	

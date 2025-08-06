@@ -2,9 +2,9 @@
 layout: page
 title: Course study notes for SQL - ACCT 425/BUDA 450
 ---
-# Course Study Notes Homepage
+# SQL Study Notes
 
-Course study notes for ACCT 425 and BUDA 450 students.
+SQL Course study notes for ACCT 425 and BUDA 450 students.
 
 1. [SQL Introduction](sql01-introduction)
 1. [Select](sql02-selectfromorderby) (Datacamp *Introduction to SQL*)

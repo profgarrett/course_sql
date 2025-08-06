@@ -20,7 +20,10 @@ This module accompanies the *Introduction to SQL* DataCamp tutorial. Some conten
 
 ## Videos
 
-- [YouTube: How to filter with WHERE](https://www.youtube.com/watch?v=4Uv0o8IBqw0)
+- [YouTube: SELECT & FROM](https://www.youtube.com/watch?v=rWRCEBWBClE)
+- [YouTube: Order BY](https://www.youtube.com/watch?v=F5DCaowwwlA)
+- [YouTube: WHERE](https://www.youtube.com/watch?v=yXFEBYirWXg)
+
 
 ## Style guide
 
@@ -93,9 +96,11 @@ When testing for NULL, you can not write `field_name = NULL`. Each NULL is uniqu
 
 
 
-## Further Resources
+## Optional Resources
 
 There are many online resources that can help you learn SQL. 
+
+- [YouTube: How to filter with WHERE](https://www.youtube.com/watch?v=4Uv0o8IBqw0)
 
 ## Excel.fun
 
@@ -120,4 +125,4 @@ Complete the following tutorials:
 
 ## Problems
 
-[Morgantown Docks GHCN](morgantowndocks)
+[Morgantown Docks GHCN](morgantowndocks/index)

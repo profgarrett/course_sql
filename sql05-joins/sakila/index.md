@@ -1,14 +1,17 @@
 # Problem: Sakila Movie rentals
 
-We will use concepts from [SQL 3](./../) to investigate movie rentals by joining tables.
+We will use concepts from [SQL 5](./../) to investigate movie rentals by joining tables.
 
 Because we are using multiple tables, we will sometimes be able to get a high-level view of the database through an ERD (entity relationship diagram). The below image shows a high-level summary of our Sakila database.
 
 ![Sakila Database Diagram](sakila_erd.png)
+
 ## Outcome
 
 - Practice `INNER JOIN` and `OUTER JOIN`
+
 ## Process
+
 - Download the [db file](sakila.db)  
 - Download the [sql file](problem.sql) 
 - Move both files into a new folder.
