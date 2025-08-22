@@ -11,6 +11,6 @@ ABC Woodworking has asked you to analyze sales records. They want invest $20,000
 What one product should they promote to maximize their investment?
 
 ## Process
-- Download the [whydb.csv file](whydb.csv) and load it into Excel
+- Download the [problem file](problem.csv) and load it into Excel
 - Open the file in Excel
 - Examine the data for potential data problems. Try to look at reasons for a DB, and see if you can find any problems in the Excel file. 
