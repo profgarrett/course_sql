@@ -4,7 +4,7 @@
 
 Reduce data rows by pivoting the data and filter the results.
 
-- Return the `sum()` or `count()` of rows
+- Return the `sum()`, `avg()`, or `count()` of rows
 - `GROUP BY` a field
 - Use a `HAVING` clause to add a filter
 - Describe the difference between `HAVING` and `WHERE`
